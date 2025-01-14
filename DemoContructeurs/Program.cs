@@ -4,7 +4,7 @@
 using (Chat c = new Chat())
 {
     Console.WriteLine(c.Nom);
-}// la methode dispose de c sera appelée à la fin de l'accolade
+}// la methode dispose de l'instance c sera appelée à la fin de l'accolade
 
 Console.WriteLine();
 
@@ -30,6 +30,7 @@ class Chat : Animal, IDisposable
     public void Dispose()
     {
         Console.WriteLine("Je libererai les ressources que j'utilise ici");
+        // empêche l'appel de la methode finalize(destructeur) de l'instance
         GC.SuppressFinalize(this);
     }
 }
