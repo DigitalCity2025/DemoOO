@@ -1,0 +1,48 @@
+﻿
+
+// je libere les ressources utilisées
+using (Chat c = new Chat())
+{
+    Console.WriteLine(c.Nom);
+}// la methode dispose de c sera appelée à la fin de l'accolade
+
+Console.WriteLine();
+
+class Chat : Animal, IDisposable
+{
+    public string Nom { get; set; }
+    public Chat(): this("Felix")
+    {
+        //Nom = "Felix";
+    }
+    public Chat(string nom):base(5)
+    {
+        Nom = nom;
+    }
+
+    // destructeur de la classe
+    ~Chat()
+    {
+        // on ne sait jamais qd le destructeur sera appelé
+        // pas très pratique
+    }
+
+    public void Dispose()
+    {
+        Console.WriteLine("Je libererai les ressources que j'utilise ici");
+        GC.SuppressFinalize(this);
+    }
+}
+
+class Animal
+{
+    public DateTime DateDeNaissance { get; set; }
+    public Animal()
+    {
+        DateDeNaissance = DateTime.Now;
+    }
+    public Animal(int age)
+    {
+        DateDeNaissance = DateTime.Now.AddYears(-age);
+    }
+}
