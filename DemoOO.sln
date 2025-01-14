@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoHeritage", "DemoHeritag
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoClasseAstraites", "DemoClasseAstraites\DemoClasseAstraites.csproj", "{4AE366DB-52E4-46E0-A0CC-C114BC34D25E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoStatique", "DemoStatique\DemoStatique.csproj", "{DD15309F-46A2-414E-9F13-BB01566981C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoInterface", "DemoInterface\DemoInterface.csproj", "{2EAB7BF7-763B-4026-BD16-D3DCD6007ECF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{4AE366DB-52E4-46E0-A0CC-C114BC34D25E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AE366DB-52E4-46E0-A0CC-C114BC34D25E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4AE366DB-52E4-46E0-A0CC-C114BC34D25E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD15309F-46A2-414E-9F13-BB01566981C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD15309F-46A2-414E-9F13-BB01566981C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD15309F-46A2-414E-9F13-BB01566981C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD15309F-46A2-414E-9F13-BB01566981C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EAB7BF7-763B-4026-BD16-D3DCD6007ECF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EAB7BF7-763B-4026-BD16-D3DCD6007ECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EAB7BF7-763B-4026-BD16-D3DCD6007ECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EAB7BF7-763B-4026-BD16-D3DCD6007ECF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
