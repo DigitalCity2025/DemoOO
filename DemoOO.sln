@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoOO_SurchargeOperateurs", "DemoOO_SurchargeOperateurs\DemoOO_SurchargeOperateurs.csproj", "{B8663654-973C-4AB6-9C43-98844E7792B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoHeritage", "DemoHeritage\DemoHeritage.csproj", "{AA543BAF-BD44-4B45-A871-55CAA1A4E2EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoClasseAstraites", "DemoClasseAstraites\DemoClasseAstraites.csproj", "{4AE366DB-52E4-46E0-A0CC-C114BC34D25E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{B8663654-973C-4AB6-9C43-98844E7792B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8663654-973C-4AB6-9C43-98844E7792B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8663654-973C-4AB6-9C43-98844E7792B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA543BAF-BD44-4B45-A871-55CAA1A4E2EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA543BAF-BD44-4B45-A871-55CAA1A4E2EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA543BAF-BD44-4B45-A871-55CAA1A4E2EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA543BAF-BD44-4B45-A871-55CAA1A4E2EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AE366DB-52E4-46E0-A0CC-C114BC34D25E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AE366DB-52E4-46E0-A0CC-C114BC34D25E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AE366DB-52E4-46E0-A0CC-C114BC34D25E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AE366DB-52E4-46E0-A0CC-C114BC34D25E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
