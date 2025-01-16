@@ -1,5 +1,5 @@
 ﻿// initialisation
-TypeDeFonction maVariable = DireBye;
+TypeDeFonction? maVariable = DireBye;
 
 // ajouter une fonction
 maVariable += DireBonjour;
