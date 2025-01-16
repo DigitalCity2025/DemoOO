@@ -1,8 +1,5 @@
 ﻿
 
-using Dapper;
-using Microsoft.Data.SqlClient;
-
 Chat c1 = new Chat { Couleur = "Noir", Nom = "Felix" };
 Chat c2 = new Chat { Couleur = "Roux", Nom = "Steve" };
 
