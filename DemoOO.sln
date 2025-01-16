@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoConstructeurs", "DemoCo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoException", "DemoException\DemoException.csproj", "{C3CE5ECD-8B85-46F5-9632-D568449EE0A9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoDelegate", "DemoDelegate\DemoDelegate.csproj", "{FFEFE539-5733-4ECA-8E52-D260BE9A903E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{C3CE5ECD-8B85-46F5-9632-D568449EE0A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3CE5ECD-8B85-46F5-9632-D568449EE0A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3CE5ECD-8B85-46F5-9632-D568449EE0A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFEFE539-5733-4ECA-8E52-D260BE9A903E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFEFE539-5733-4ECA-8E52-D260BE9A903E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFEFE539-5733-4ECA-8E52-D260BE9A903E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFEFE539-5733-4ECA-8E52-D260BE9A903E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
