@@ -12,8 +12,11 @@ maVariable?.Invoke();
 maVariable -= DireBonjour;
 maVariable?.Invoke();
 
-List<int> l = [1, 2, 3, 4, 5, 6, 42, 47, 99];
-List<int> result = Filtrer(l, nb => nb % 3 == 0);
+// List<int> l = [1, 2, 3, 4, 5, 6, 42, 47, 99];
+List<string> list = ["papa", "maman", "Khun", "piu"];
+List<string> result = Filtrer<string>(list, item => item.StartsWith("p"));
+
+//List<int> result = Filtrer(l, nb => nb % 3 == 0);
 // List<int> result = Filtrer(l, delegate (int nb) { return nb % 3 == 0; });
 // List<int> result = l.Where((int nb) => nb % 3 == 0).ToList();
 Console.WriteLine(string.Join(",", result));
@@ -64,10 +67,10 @@ int Somme(int nb1, int nb2)
 //    return sortie;
 //}
 
-List<int> Filtrer(List<int> entree, Filtre f)
+List<T> Filtrer<T>(List<T> entree, Filtre<T> f)
 {
-    List<int> sortie = new List<int>();
-    foreach (int i in entree)
+    List<T> sortie = new List<T>();
+    foreach (T i in entree)
     {
         if (f.Invoke(i))
         {
@@ -89,4 +92,4 @@ bool EstPlusQue5(int nb)
 
 delegate void TypeDeFonction();
 
-delegate bool Filtre(int nb); 
+delegate bool Filtre<T>(T nb); 
